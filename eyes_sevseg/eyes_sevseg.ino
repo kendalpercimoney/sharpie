@@ -29,7 +29,7 @@ void rolleyes() {
 void eyesopen(){
 
   for (float i = 0; i <= randomTime; i++) {
-    sevseg.setChars(" oo ");
+    sevseg.setChars("0 . 0");
     sevseg.refreshDisplay();
 
 
@@ -40,7 +40,7 @@ void eyesopen(){
 void eyesblink(){
 
   for (float i = 0; i <= 3000; i++) {
-    sevseg.setChars(" -- ");
+    sevseg.setChars("- . -");
     sevseg.refreshDisplay();
   }
 
